@@ -1,0 +1,58 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background: linear-gradient(120deg, #c025eb, #38BDF8);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+}
+
+.hero-text h2 {
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.hero-text p {
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.buttons {
+  margin: 25px 0;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.primary {
+  background: white;
+  color: #2563EB;
+}
+
+.secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.skills span {
+  background: rgba(255,255,255,0.2);
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.hero-image img {
+  width: 50px;
+  border-radius: 100%;
+}
